@@ -1,0 +1,60 @@
+html {
+    min-height: 100vh;
+}
+
+header {
+    font-size: 28px;
+    background: orange;
+    text-decoration: underline;
+    line-height: 2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+}
+
+main {
+    position: relative;
+    display: flex;
+}
+
+.column {
+    height: 800px;
+    display:flex;
+}
+
+#left {
+    width: 70%;
+    background: green;
+    font-size: 40px;
+}
+
+#right {
+    width: 30%;
+    background: blue;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer {
+    font-size: 27px;
+    padding-top: 1%;
+}
+
+#start {
+    align-self: center;
+}
+
+#scoreholder {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: yellow;
+    align-self: center;
+    width: 40%;
+    height: 20%;
+}
+
+#reset {
+    align-self: center;
+}
