@@ -26,6 +26,7 @@ main {
     width: 70%;
     background: green;
     font-size: 40px;
+    justify-content: center;
 }
 
 #right {
@@ -38,6 +39,11 @@ main {
 footer {
     font-size: 27px;
     padding-top: 1%;
+}
+
+#display {
+    font-size: 100px;
+    align-self: center;
 }
 
 #start {
@@ -58,3 +64,15 @@ footer {
 #reset {
     align-self: center;
 }
+
+#timer {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background: yellow;
+    align-self: center;
+    width: 40%;
+    height: 20%;
+}
+

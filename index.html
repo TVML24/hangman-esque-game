@@ -13,11 +13,21 @@
         <h1>Conquer the World (with hangman!)</h1>
     </header>
     <main>
-        <div class = "column" id = "left"></div>
+        <div class = "column" id = "left">
+            <div id="display"></div>
+        </div>
         <div class = "column" id = "right">
             <button type= "button" id= "start">Start!</button>
-            <div id = "scoreholder"></div>
+            <div id = "scoreholder">
+                <div id = "wins">
+                    <span>Wins:</span><span id = "winholder"></span>
+                </div>
+                <div id = "losses">
+                    <span>Losses:</span><span id = "lossholder"></span>
+                </div>
+            </div>
             <button type="button" id="reset">Reset Score!</button>
+            <div id = "timer"></div>
         </div>
     </main>
     <footer>
